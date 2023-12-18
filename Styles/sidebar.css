@@ -1,0 +1,31 @@
+.youtube-sidebar {
+  position: fixed;
+  left: 0;
+  top: 56px;
+  bottom: 0;
+  background-color: white;
+  width: 72px;
+  z-index: 9999;
+}
+
+.youtube-sidebar-icon {
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.youtube-sidebar-icon:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.youtube-sidebar-icon img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.youtube-sidebar-title {
+  font-size: 10px;
+}
